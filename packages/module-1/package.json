@@ -1,0 +1,25 @@
+{
+  "name": "module-1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "guojianli02 <guojianli02@kaikeba.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/module-1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry-npm.kaikeba.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
